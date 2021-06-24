@@ -366,7 +366,7 @@ var MenuLink = function (_a) {
 var Icon$q = function (props) {
     return (React__default['default'].createElement(MenuLink, { href: "https://defi.finance/" },
         React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-            React__default['default'].createElement("image", { width: "32", height: "32", href: "https://welcome.woonkly.com/images/common/logo-responsive.svg" }))));
+            React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/media/logo.png" }))));
 };
 
 var Icon$r = function (props) {
@@ -1901,9 +1901,7 @@ var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(MenuLink, { href: "https://defi.finance/" },
         React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-            React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? 'https://welcome.woonkly.com/images/defi/logo-light.svg'
-                    :
-                        'https://welcome.woonkly.com/images/defi/logo-dark.svg' }))));
+            React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? '/images/defi/logo-light.png' : '/images/defi/logo-dark.png' }))));
 };
 
 var Icon$Q = function (props) {
